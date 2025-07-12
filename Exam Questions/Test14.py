@@ -1,9 +1,10 @@
-def fun(x):
-    global y
-    y = x * x
-    return y
+def any():
+    print(var + 1, end='')
 
 
-fun(2)
-print(y)
+var = 1
+any()
+print(var)
+
+
 
